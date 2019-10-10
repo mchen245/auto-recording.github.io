@@ -10,8 +10,14 @@ python3 --version
 pip3 --version
 virtualenv --version
 I update pip3, however there is a problem: pip ImportError: cannot import name 'main' after update
-Thanks for google, I solve it.  hash -d pip3 works for me.
+Thanks for google, I solved it.  hash -d pip3 works for me.
 
 
 2.Create a virtual environment
+Each time I want to activate it, I can use: source ./venv/bin/activate  # sh, bash, ksh, or zsh
+To exit, just deactivate.
 Ok, successfully install tensorflow-gpu
+
+## Installing pytorch on linux
+see PyTorch.org and choose configuration of your PC.
+I installed PyTorch by using : pip3 install torch torchvision, and still installed it on virtual environment.
